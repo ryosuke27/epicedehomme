@@ -54,13 +54,21 @@ require('head.php');
                </p>
               </div>
           </div>
-
+             
+       <div id="app">
+            <div class="cart">
+            </div>
+              <product :premium="premium"></product>
+      </div>
   
       </div>
       <div class="backcommand">
           <a href="index.php">&lt; 買い物を続ける</a>
       </div>
 
+       
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/index.js"></script>
     <!-- footer -->
     <?php
       require('footer.php'); 
